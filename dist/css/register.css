@@ -1,0 +1,203 @@
+.register_box{
+	width: 1200px;
+	height: 557px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.register_left{
+	width: 806px;
+	height: 557px;
+	padding-top: 13px;
+	position: absolute;
+	left: -806px;
+	top: 0;
+}
+.register_right{
+	width: 394px;
+	height: 557px;
+	padding: 20px 12px 0 0;
+	color: #666666;
+	position: absolute;
+	right: -394px;
+	top: 0;
+}
+.register_right>ul{
+	width: 382px;
+	height: 33px;
+	border-bottom: 1px solid #dddddd;
+}
+.register_right>ul>li{
+	width: 132px;
+	height: 33px;
+	border: 1px solid transparent;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.register_right>ul>p{
+	height: 32px;
+	font-size: 12px;
+	line-height: 32px;
+	float: right;
+}
+.register_right a{
+	color: #CC0000;
+}
+.register_right>ul>.Rselected{
+	border: 1px solid #ddd;
+	border-bottom: 1px solid #fff;
+	color: #CC0000;
+}
+.register_right>div{
+	width: 382px;
+	height: 450px;
+	border: 1px solid #ddd;
+	border-top: none;
+	padding: 30px 0 0 40px;
+	position: absolute;
+	top: 53px;
+	left: 0;
+}
+.register_right>div>div{
+	width: 295px;
+	height: 38px;
+	border: 1px solid #ddd;
+}
+.register_right>div>div>i{
+	display: block;
+	width: 16px;
+	height: 20px;
+	background: url(../images/register.png) no-repeat 0 -50px;
+	margin: 7px 6px 0 8px;
+	float: left;
+}
+.register_right>div>div:nth-of-type(2)>i,.register_right>div>div:nth-of-type(3)>i{
+	background-position-y: -25px;
+}
+.register_right>div>div>input{
+	width: 263px;
+	height: 36px;
+	border: 0;
+	color: #666;
+}
+.register_right>div>span{
+	display: block;
+	width: 295px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.register_right>div>p{
+	width: 295px;
+	height: 40px;
+	padding-bottom: 8px;
+	display: none;
+}
+.register_right>div>p>i{
+	display: block;
+	width: 98px;
+	height: 32px;
+	border-bottom: 2px solid #ddd;
+	color: #ccc;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+}
+.register_right>div>p>i:nth-of-type(2){
+	width: 99px;
+}
+.register_right>div>div:nth-of-type(4){
+	width: 242px;
+	height: 42px;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+}
+.register_right>div>div:nth-of-type(4)>div{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	border: 1px solid #c4c4c4;
+	background: url(../images/drag1.jpg) no-repeat;
+	cursor: pointer;
+}
+.register_right>div>div:nth-of-type(4)>div:hover{
+	background: url(../images/drag2.jpg) no-repeat;
+}
+.register_right>div>div:nth-of-type(5){
+	width: 127px;
+	height: 38px;
+	margin-top: 30px;
+	position: relative;
+}
+.register_right>div>div:nth-of-type(5)>input{
+	width: 95px;
+}
+.register_right>div>div:nth-of-type(5)>u{
+	display: block;
+	width: 103px;
+	height: 38px;
+	border: 1px solid #ddd;
+	background: #F4DAA7;
+	color: #CC0000;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 36px;
+	position: absolute;
+	left: 136px;
+	top: -1px;
+	cursor: pointer;
+}
+.register_right>div>label{
+	display: block;
+	width: 295px;
+	height: 12px;
+	line-height: 12px;
+}
+.register_right>div>label>input{
+	vertical-align: middle;
+}
+.register_right>div>input[type="button"]{
+	display: block;
+	width: 300px;
+	height: 35px;
+	line-height: 34px;
+	border: 0;
+	background: #e4393c;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+.register_right>p{
+	width: 130px;
+	height: 23px;
+	line-height: 22px;
+	text-align: right;
+	position: absolute;
+	right: 8px;
+	bottom: 11px;
+}
+.register_right>p>a{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	background: url(../images/login.png) no-repeat -170px -40px;
+	vertical-align: middle;
+}
+.register_right>p>a:nth-of-type(2){
+	background-position-x: -10px;
+	margin-left: 10px;
+}
+.success{
+	color: #5cb85c !important;
+}
+.error{
+	color: #990000 !important;
+}
